@@ -1,17 +1,11 @@
 {
   "name": "ci-cd-actions",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000c\u0000i\u0000-\u0000c\u0000d\u0000-\u0000a\u0000c\u0000t\u0000i\u0000o\u0000n\u0000s\u0000\r\u0000 \u0000",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "jest"
+    "start": "node src/app.js",
+    "test": "jest",
+    "build": "node src/build.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "jest": "^30.0.0",
     "supertest": "^7.1.1"
