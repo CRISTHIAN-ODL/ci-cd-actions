@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Print variable
-        uses: echo "${{ secrets.TOKEN_SECRET }}"
+        run: echo "${{ secrets.TOKEN_SECRET }}"
